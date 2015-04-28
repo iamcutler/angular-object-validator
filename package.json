@@ -1,0 +1,31 @@
+{
+  "name": "angular-object-validator",
+  "version": "0.0.1",
+  "description": "AngularJS object validator.",
+  "main": "validator.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamcutler/angular-object-validator.git"
+  },
+  "keywords": [
+    "angularJS",
+    "angular-object-validator"
+  ],
+  "author": "iamcutler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamcutler/angular-object-validator/issues"
+  },
+  "homepage": "https://github.com/iamcutler/angular-object-validator",
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-coverage": "^0.3.1",
+    "karma-growl-reporter": "^0.1.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}

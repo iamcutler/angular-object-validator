@@ -1,0 +1,5 @@
+# local files
+.idea
+
+# Node dependencies
+node_modules

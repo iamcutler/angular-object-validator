@@ -4,7 +4,7 @@ AngularJS object validator.
 This is the initial implementation however, I'll be working further to improve functionality and abilities as well as observing nested objects.
 Better documentation will also be introduced in the near future.
 
-![Build Status](https://travis-ci.org/iamcutler/angular-object-validator.svg?branch=master)](https://travis-ci.org/iamcutler/angular-object-validator)
+[![Build Status](https://travis-ci.org/iamcutler/angular-object-validator.svg?branch=master)](https://travis-ci.org/iamcutler/angular-object-validator)
 
 ## Installation
 ```npm

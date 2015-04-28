@@ -15,7 +15,12 @@
     "angular-object-validator"
   ],
   "author": "iamcutler",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/iamcutler/angular-object-validator/blob/master/LICENSE"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/iamcutler/angular-object-validator/issues"
   },

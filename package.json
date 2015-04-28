@@ -4,7 +4,7 @@
   "description": "AngularJS object validator.",
   "main": "validator.js",
   "scripts": {
-    "test": "karma start"
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
   },
   "repository": {
     "type": "git",

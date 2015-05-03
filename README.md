@@ -5,6 +5,7 @@ This is the initial implementation however, I'll be working further to improve f
 Better documentation will also be introduced in the near future.
 
 [![Build Status](https://travis-ci.org/iamcutler/angular-object-validator.svg?branch=master)](https://travis-ci.org/iamcutler/angular-object-validator)
+[![Coverage Status](https://coveralls.io/repos/iamcutler/angular-object-validator/badge.svg)](https://coveralls.io/r/iamcutler/angular-object-validator)
 
 ## Installation
 ```npm

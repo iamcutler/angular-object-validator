@@ -36,7 +36,7 @@ angular.module('angular-object-validator', [])
                 if(currentItem.hasOwnProperty(Object.keys(currentRule)[0])) {
                     for(rule in currentRule) {
                         // Loop through currrent validations
-                        currentRule[rule].map(function (currentValidation) {
+                        currentRule[rule].forEach(function (currentValidation) {
                             currentValue = currentItem[Object.keys(currentRule)[0]];
                             currentValidationKey = Object.keys(currentValidation)[0];
                             validationMessage = currentValidation[Object.keys(currentValidation)[0]];
@@ -104,7 +104,18 @@ angular.module('angular-object-validator', [])
             lessThanOrEquals = (key == 'lessThanOrEquals' && arg === null || key == 'lessThanOrEquals' && Number(value) > Number(arg)),
             greaterThanOrEquals = (key == 'greaterThanOrEquals' && arg === null || key == 'greaterThanOrEquals' && Number(value) < Number(arg));
 
-        if(required || string || number || boolean || object || array || min || max || lessThan || greaterThan || lessThanOrEquals || greaterThanOrEquals) {
+        if( required         ||
+            string           ||
+            number           ||
+            boolean          ||
+            object           ||
+            array            ||
+            min              ||
+            max              ||
+            lessThan         ||
+            greaterThan      ||
+            lessThanOrEquals ||
+            greaterThanOrEquals) {
             validations.errors.push(rule);
         }
     }
